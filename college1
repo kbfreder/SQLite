@@ -1,0 +1,3 @@
+SELECT sName, major
+FROM Student, Apply
+WHERE Student.sID = Apply.sID
